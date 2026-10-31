@@ -1,0 +1,175 @@
+:root {
+    --cor-pricipal: #0f4C81;
+    --cor-texto: #1F2937;
+    --cor-fundo: #f9fafb;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    margin: 0;
+}
+
+header {
+    background-color: var(--cor-pricipal);
+    color: var(--cor-fundo);
+    padding: 0;
+}
+
+header p {
+    text-align: center;
+}
+
+#titulo-curso {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: var(--cor-texto);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor-fundo);
+    padding: 0.7rem 1rem;
+
+}
+
+nav a:hover {
+    background-color: #168bd0;
+    color: white;   
+}
+
+main {
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+}
+
+footer {
+    text-align: center;
+}
+
+.card {
+    border : 1px solid #168bd0;
+    padding: 1rem;
+    background-color: var(--cor-fundo);
+    border-radius: 12px;
+    overflow: hidden;
+    
+
+}
+
+.card p {
+    
+    padding: 1rem;
+}
+
+.card > h2 {
+    background-color: var(--cor-texto);
+    color: white;
+    padding: 0.8rem 1rem;
+    margin: -1rem -1rem -1rem -1rem;
+}
+
+h1 {
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+.card img {
+    max-width: 150px;
+    height: auto;
+    
+}
+
+.card > h2.titulo-cidade {
+    background-color: transparent;
+    color: #1F2937;
+    padding: 0;
+    margin: 5px;
+    text-align: center;
+}
+
+.card ul {
+    text-align: center;
+    list-style-position: inside;
+    padding: 0;
+}
+
+.card:last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.card:last-child ul {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-position: inside;
+    padding: 0;
+}
+
+
+.sobre-mim-conteudo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    align-items: center;
+}
+
+.sobre-mim-conteudo h2 {
+    background-color: transparent;
+    color: var(--cor-texto);
+    padding: 0;
+    margin: 0;
+
+}
+
+.cidade-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+    align-items: center;
+}
+
+.cidade-conteudo img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+
+}
+
+hr {
+    width: 60%;
+}
+
+.cidade-conteudo figure {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+    
+
+
+
