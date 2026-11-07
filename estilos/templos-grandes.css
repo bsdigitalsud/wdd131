@@ -1,0 +1,19 @@
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.galeria figure {
+    text-align: center;
+}
+
+@media  screen and (min-width: 640px) {
+    nav  {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+    }
+}
