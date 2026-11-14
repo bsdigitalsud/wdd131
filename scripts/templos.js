@@ -4,8 +4,15 @@ const ultimaModificacao = document.lastModified;
 document.querySelector("#ultimaModificacao").textContent = `Última modificação: ${ultimaModificacao}`;
 const botaoMenu = document.querySelector('#menu');
 const navegacao = document.querySelector('nav');
-botaoMenu.addEventListener('click', () => {
-    navegacao.style.display = 'block';
-})
-
-if (navegacao.style.display === 'blockm.')
+botaoMenu.addEventListener('click', () =>
+{
+    if(navegacao.style.display === 'block') {
+        navegacao.style.display = 'none';
+        botaoMenu.textContent = '☰';
+    }
+    else {
+        navegacao.style.display = "block";
+        botaoMenu.textContent = "❌";
+    }
+    
+});
