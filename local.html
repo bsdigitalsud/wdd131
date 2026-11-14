@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça o Brasil, suas características geográficas, informações gerais e condições climáticas.">
+    <title>Cocheça o Brasil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/local.css">
+    <script src="scripts/local.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Brasil</h1>
+    </header>
+    <main>
+        <div class="conteudo-principal">
+            <picture>
+                <source srcset="imagem/principal-pequena.webp" media="(max-width:600px)">
+                <img src="imagens/pricipal-grande.webp" alt="Cristo Redentor e a beleza do Rio de Janeiro">
+            </picture>
+            <section class="dados">
+                <h2>Dados</h2>
+                <p class="dado">Área:</p>
+                <p class="valor"> 8.509.360,85 km²</p>
+                <p class="dado">População:</p>
+                <p class="valor"> 203.080.756 habitantes</p>
+                <p class="dado">Capital:</p>
+                <p class="valor">Brasília</p>
+                <p class="dado">Idioma:</p>
+                <p class="valor"> Português</p>
+                <p class="dado">Moeda:</p>
+                <p class="valor">Real (R$)</p>
+                <p class="dado">Fuso horário:</p>
+                <p class="valor"> UTC-2 a UTC-5</p>
+
+
+            </section>
+
+            <section class="clima">
+                <h2>
+                    <img src="imagens/sol.svg" alt="simbolo do sol"> Clima
+                </h2>
+                <p class="dado">Temperatura:</p>
+                <p class="valor">22°C</p>
+                <p class="dado">Velocidade do vento:</p>
+                <p class="valor">10 km/h</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>©️ <span id="anoatual"></span> Bruno Matos da Silva - Pará, Brasil</p>
+        <p id="ultimaModificacao"></p>
+    </footer>
+    
+</body>
+</html>

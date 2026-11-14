@@ -7,3 +7,5 @@ const navegacao = document.querySelector('nav');
 botaoMenu.addEventListener('click', () => {
     navegacao.style.display = 'block';
 })
+
+if (navegacao.style.display === 'blockm.')
