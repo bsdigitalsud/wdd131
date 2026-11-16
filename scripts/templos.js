@@ -12,7 +12,7 @@ botaoMenu.addEventListener('click', () =>
     }
     else {
         navegacao.style.display = "block";
-        botaoMenu.textContent = "❌";
+        botaoMenu.textContent = "✕";
     }
     
 });

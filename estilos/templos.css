@@ -14,7 +14,7 @@
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-principal);
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.5;
 }
 
