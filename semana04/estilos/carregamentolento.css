@@ -1,0 +1,22 @@
+img {
+    display: block;
+    width: 400px;
+    height: 600px;
+    margin: 20px auto;
+    animation: aparecer 2s ease-in;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+
+to {
+    opacity: 1;
+  }
+}
